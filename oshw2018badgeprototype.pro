@@ -1,4 +1,4 @@
-update=6/5/2018 4:13:59 PM
+update=6/9/2018 1:50:20 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,3 +66,5 @@ LibName34=lib_sch/espressif-xess
 LibName35=lib_sch/xc9141
 LibName36=lib_sch/kx122-1037
 LibName37=lib_sch/si7006-a20
+LibName38=lib_sch/ws2812b
+LibName39=lib_sch/105162-0001
