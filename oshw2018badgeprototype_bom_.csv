@@ -1,0 +1,43 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Manufacturer_Name,Arrow Part Number,Manufacturer_Part_Number
+1,single battery cell,Battery_Cell,BT1,Battery_Cell,12BH321P-GR,1,,,,
+2,Unpolarized capacitor,C,C1 C2 C5,10uF,C_0603,3,,,,
+3,Unpolarized capacitor,C,C3 C4 C6 C7 C8 C9 C10 C11 C12 C13 C16 C17 C18,1uF,C_0603,13,,,,
+4,Unpolarized capacitor,C,C14,2.2uF,C_0603,1,,,,
+5,Polarised capacitor,CP,C15 C19,220uF,CP_Elec_6.3x5.7,2,,,,
+6,Diode,D,D5 D6,D,D_MELF,2,,,,
+7,Schottky diode,D_Schottky,D1 D2 D3,D_Schottky,D_SOD-123,3,,,,
+8,Memory Card Connectors 1.45H MICRO SD HEADER WITH D/C PIN,105162-0001,J2,105162-0001,105162-0001,1,http://www.molex.com/webdocs/datasheets/pdf/en-us//1051620001_MEMORY_CARD_SOCKET.pdf,Molex,105162-0001,105162-0001
+9,"Generic connector, double row, 02x03, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins)",Conn_02x03_Top_Bottom,J1,Conn_02x03_Top_Bottom,Socket_Strip_Straight_2x03_Pitch2.54mm,1,,,,
+10,Inductor,L,L2,68uH,L_1812,1,,,,
+11,Inductor,L,L1,L,L_1812,1,,,,
+12,Transistor N-MOSFETwith substrate diode (general),Q_NMOS_GSD,Q2,Q_NMOS_GSD,SOT-23,1,,,,
+13,Resistor,R,R6,10,R_0603,1,,,,
+14,Resistor,R,R8 R11,100k,R_0603,2,,,,
+15,Resistor,R,R1 R3 R9 R14 R16,10KR,R_0603,5,,,,
+16,Resistor,R,R4 R5 R12 R13 R15,2.2kR,R_0603,5,,,,
+17,Resistor,R,R7,220,R_0603,1,,,,
+18,Resistor,R,R2,DNP,R_0603,1,,,,
+19,"Push button switch, generic, two pins",SW_Push,SW1,SW_Push,SPST-4mm,1,,,,
+20,point,TEST_1P,T1 T2 T3 T4 T5 T6,TEST_1P,1Pin,6,,,,
+21,,ESP32-WROOM,U1,ESP32-WROOM,ESP32-WROOM,1,,,,
+22,,KX122-1037,U3,KX122-1037,LGA16R50P4X4_200X200X100,1,,,,
+23,,Si7006-A20,U4,Si7006-A20,SON100P300X300X80-7N,1,,,,
+24,,WS2812B,U5 U6 U7 U8 U9 U10 U11 U12 U13 U14 U15 U16 U17 U18 U19 U20,WS2812B,ws2812B_mini,16,,,,
+25,,XC9141,U2,XC9141,SOT95P280X130-5N,1,,,,
+26,,52435-2471,X1,52435-2471,MOLEX_52435-2471,1,,,,
+27,,Badgelife_shitty_connector,X2,Badgelife_shitty_connector,Badgelife-Shitty-2x2,1,,,,
+
+
+
+
+
+Component Groups:,27
+Component Count:,74
+Fitted Components:,74
+Number of PCBs:,1
+Total components:,74
+Schematic Version:,
+Schematic Date:,
+BoM Date:,6/10/2018 7:17:31 PM
+Schematic Source:,C:/Users/alexc/Documents/GitHub/ohs18badge/oshw2018badgeprototype.sch
+KiCad Version:,Eeschema 4.0.7
