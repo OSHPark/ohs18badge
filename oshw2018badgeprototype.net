@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\alexc\Documents\GitHub\ohs18badge\oshw2018badgeprototype.sch)
-    (date "6/9/2018 10:12:42 PM")
+    (date "6/10/2018 2:20:41 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -311,7 +311,7 @@
       (tstamp 5B1A8017))
     (comp (ref BT1)
       (value Battery_Cell)
-      (footprint 12BH311P-GR:Eagle_12BH311P-GR_1xAA)
+      (footprint 12BH321P-GR:12BH321P-GR)
       (libsource (lib device) (part Battery_Cell))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B1AB78E))
