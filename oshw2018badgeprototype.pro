@@ -1,4 +1,4 @@
-update=6/9/2018 1:50:20 PM
+update=6/10/2018 4:34:57 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,4 @@ LibName36=lib_sch/kx122-1037
 LibName37=lib_sch/si7006-a20
 LibName38=lib_sch/ws2812b
 LibName39=lib_sch/105162-0001
+LibName40=lib_sch/badgelife_shitty_connector
