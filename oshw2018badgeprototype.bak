@@ -1081,28 +1081,6 @@ F 3 "" H 4050 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C16
-U 1 1 5B1A13BD
-P 1550 5850
-F 0 "C16" H 1575 5950 50  0000 L CNN
-F 1 "1uF" H 1575 5750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 1588 5700 50  0001 C CNN
-F 3 "" H 1550 5850 50  0001 C CNN
-	1    1550 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L C C17
-U 1 1 5B1A16AC
-P 2700 5800
-F 0 "C17" H 2725 5900 50  0000 L CNN
-F 1 "1uF" H 2725 5700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 2738 5650 50  0001 C CNN
-F 3 "" H 2700 5800 50  0001 C CNN
-	1    2700 5800
-	0    1    1    0   
-$EndComp
-$Comp
 L +3V3 #PWR039
 U 1 1 5B1A178C
 P 2500 5800
@@ -1628,8 +1606,6 @@ Wire Wire Line
 	1350 2550 1600 2550
 Wire Wire Line
 	1600 3050 1350 3050
-Wire Wire Line
-	2600 4000 2600 3850
 Wire Notes Line
 	-3150 5950 -550 5950
 Wire Notes Line
@@ -2461,17 +2437,6 @@ Wire Wire Line
 Wire Wire Line
 	-2900 2750 -3000 2750
 $Comp
-L R R16
-U 1 1 5B1E250E
-P -3900 4300
-F 0 "R16" V -3850 4150 50  0000 C CNN
-F 1 "10k" V -3900 4300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V -3970 4300 50  0001 C CNN
-F 3 "" H -3900 4300 50  0001 C CNN
-	1    -3900 4300
-	1    0    0    1   
-$EndComp
-$Comp
 L +3V3 #PWR065
 U 1 1 5B1E2617
 P -3900 4550
@@ -2489,10 +2454,6 @@ Wire Wire Line
 Wire Wire Line
 	-3900 4150 -3900 4000
 Connection ~ -3900 4000
-Text GLabel -4100 4000 0    60   Input ~ 0
-DET
-Text GLabel 2600 4000 3    60   Input ~ 0
-DET
 Wire Wire Line
 	6950 5000 6950 4950
 Wire Wire Line
@@ -2544,4 +2505,8 @@ Wire Wire Line
 	1000 5150 950  5150
 Wire Wire Line
 	2550 5800 2500 5800
+Text GLabel 2600 4000 3    60   Input ~ 0
+T4
+Wire Wire Line
+	2600 3850 2600 4000
 $EndSCHEMATC
