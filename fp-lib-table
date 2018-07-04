@@ -12,4 +12,5 @@
   (lib (name 12BH321P-GR)(type KiCad)(uri C:/Users/alexc/Documents/badgetest/lib_fp/12BH321P-GR.pretty)(options "")(descr ""))
   (lib (name shitty)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/shitty.pretty")(options "")(descr ""))
   (lib (name oshw)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/oshw.pretty")(options "")(descr ""))
+  (lib (name WS2812B)(type KiCad)(uri C:/Users/alexc/Documents/badgetest/lib_fp/WS2812B.pretty)(options "")(descr ""))
 )
