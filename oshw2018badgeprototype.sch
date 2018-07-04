@@ -1646,10 +1646,6 @@ Wire Wire Line
 	1600 2750 1350 2750
 Wire Wire Line
 	2550 6850 2950 6850
-Wire Wire Line
-	2900 6950 2950 6950
-Wire Wire Line
-	2900 6050 2900 6950
 Connection ~ 2900 6850
 Wire Wire Line
 	2950 6750 2900 6750
@@ -1662,7 +1658,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 6650 2800 6650
 Wire Wire Line
-	2800 6650 2800 6250
+	2800 6250 2800 6950
 Connection ~ 2800 6250
 Wire Wire Line
 	2950 6050 2900 6050
@@ -2509,4 +2505,9 @@ Text GLabel 2600 4000 3    60   Input ~ 0
 T4
 Wire Wire Line
 	2600 3850 2600 4000
+Wire Wire Line
+	2900 6350 2900 6850
+Wire Wire Line
+	2800 6950 2950 6950
+Connection ~ 2800 6650
 $EndSCHEMATC
