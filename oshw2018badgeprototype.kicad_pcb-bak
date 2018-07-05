@@ -370,7 +370,7 @@
   )
 
   (module Capacitors_SMD:CP_Elec_6.3x5.7 (layer F.Cu) (tedit 58AA8B43) (tstamp 5B174F24)
-    (at 150.672 95.746 90)
+    (at 150.672 95.8 90)
     (descr "SMT capacitor, aluminium electrolytic, 6.3x5.7")
     (path /5B1792DA)
     (attr smd)

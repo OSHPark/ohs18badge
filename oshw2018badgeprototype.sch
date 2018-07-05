@@ -556,7 +556,7 @@ Text GLabel 4100 2950 2    60   Input ~ 0
 EINK_BUSY
 Text GLabel 4100 2850 2    60   Input ~ 0
 EINK_RESET
-Text GLabel 4100 2750 2    60   Input ~ 0
+Text GLabel 1350 2650 0    60   Input ~ 0
 EINK_DC
 Text GLabel 4100 2650 2    60   Input ~ 0
 EINK_CS
@@ -1240,8 +1240,6 @@ F 3 "" H 9300 -5500 50  0001 C CNN
 $EndComp
 Text GLabel 1350 2750 0    60   Input ~ 0
 LED_BAR_DOUT
-Text GLabel 1350 2650 0    60   Input ~ 0
-LED_BUTTON_DOUT
 $Comp
 L CP C19
 U 1 1 5B1DF802
@@ -2269,4 +2267,35 @@ F 3 "" H 12400 -1050 50  0001 C CNN
 	1    12400 -1050
 	0    1    1    0   
 $EndComp
+$Comp
+L C C16
+U 1 1 5B3F77CC
+P 8450 1800
+F 0 "C16" H 8475 1900 50  0000 L CNN
+F 1 "1uF" H 8475 1700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8488 1650 50  0001 C CNN
+F 3 "" H 8450 1800 50  0001 C CNN
+	1    8450 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR068
+U 1 1 5B3F78DD
+P 8250 1800
+F 0 "#PWR068" H 8250 1550 50  0001 C CNN
+F 1 "GND" H 8250 1650 50  0000 C CNN
+F 2 "" H 8250 1800 50  0001 C CNN
+F 3 "" H 8250 1800 50  0001 C CNN
+	1    8250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 1800 8350 1800
+Connection ~ 8300 1800
+Wire Wire Line
+	8600 1800 9000 1800
+Wire Wire Line
+	9000 1800 9000 1850
+Wire Wire Line
+	9000 1850 9600 1850
 $EndSCHEMATC
