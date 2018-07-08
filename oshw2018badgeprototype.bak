@@ -954,10 +954,6 @@ Text GLabel 2200 800  0    60   Input ~ 0
 TxD
 Text GLabel 2200 900  0    60   Input ~ 0
 RxD
-Text GLabel 2200 1000 0    60   Input ~ 0
-IO0
-Text GLabel 2800 800  2    60   Input ~ 0
-EN
 $Comp
 L GND #PWR033
 U 1 1 5B190CF7
@@ -1803,7 +1799,7 @@ Wire Wire Line
 	2800 6250 2800 6950
 Connection ~ 2800 6250
 Wire Wire Line
-	2950 6050 2900 6050
+	2700 6050 2950 6050
 Connection ~ 2900 6750
 Wire Wire Line
 	2950 6350 2900 6350
@@ -2158,4 +2154,99 @@ F 3 "" H -2300 4100 50  0001 C CNN
 	1    -2300 4100
 	0    -1   -1   0   
 $EndComp
+$Comp
+L GND #PWR066
+U 1 1 5B40C6D0
+P 2700 6050
+F 0 "#PWR066" H 2700 5800 50  0001 C CNN
+F 1 "GND" H 2700 5900 50  0000 C CNN
+F 2 "" H 2700 6050 50  0001 C CNN
+F 3 "" H 2700 6050 50  0001 C CNN
+	1    2700 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5B418435
+P 6650 1650
+F 0 "R5" V 6730 1650 50  0000 C CNN
+F 1 "2.2R" V 6650 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6580 1650 50  0001 C CNN
+F 3 "" H 6650 1650 50  0001 C CNN
+	1    6650 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R6
+U 1 1 5B418784
+P 6650 2250
+F 0 "R6" V 6730 2250 50  0000 C CNN
+F 1 "2.2R" V 6650 2250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6580 2250 50  0001 C CNN
+F 3 "" H 6650 2250 50  0001 C CNN
+	1    6650 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 1850 6100 1950
+Wire Wire Line
+	6100 1950 6900 1950
+Wire Wire Line
+	6900 1950 6900 2250
+Wire Wire Line
+	6800 2250 7000 2250
+Wire Wire Line
+	6500 2250 6400 2250
+Wire Wire Line
+	6400 1650 6500 1650
+Wire Wire Line
+	6800 1650 7000 1650
+Wire Wire Line
+	6900 1650 6900 1850
+Wire Wire Line
+	6900 1850 6250 1850
+Wire Wire Line
+	6250 1850 6250 2050
+Wire Wire Line
+	6250 2050 6100 2050
+Text GLabel 6100 2600 3    60   Input ~ 0
+IO0
+Text GLabel 6100 1400 1    60   Input ~ 0
+EN
+Text GLabel 7000 1650 2    60   Input ~ 0
+DTR
+Text GLabel 7000 2250 2    60   Input ~ 0
+RTS
+Connection ~ 6900 1650
+Connection ~ 6900 2250
+Wire Wire Line
+	6100 2450 6100 2600
+Wire Wire Line
+	6100 1400 6100 1450
+$Comp
+L Q_NPN_BEC Q1
+U 1 1 5B42044F
+P 6200 1650
+F 0 "Q1" H 6400 1700 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 6400 1600 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6400 1750 50  0001 C CNN
+F 3 "" H 6200 1650 50  0001 C CNN
+	1    6200 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Q_NPN_BEC Q3
+U 1 1 5B420533
+P 6200 2250
+F 0 "Q3" H 6400 2300 50  0000 L CNN
+F 1 "Q_NPN_BEC" H 6400 2200 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6400 2350 50  0001 C CNN
+F 3 "" H 6200 2250 50  0001 C CNN
+	1    6200 2250
+	-1   0    0    1   
+$EndComp
+Text GLabel 2200 1000 0    60   Input ~ 0
+RTS
+Text GLabel 2800 800  2    60   Input ~ 0
+DTR
 $EndSCHEMATC
