@@ -13,4 +13,5 @@
   (lib (name shitty)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/shitty.pretty")(options "")(descr ""))
   (lib (name oshw)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/oshw.pretty")(options "")(descr ""))
   (lib (name SK6812MINI)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/SK6812MINI .pretty")(options "")(descr ""))
+  (lib (name ohs)(type KiCad)(uri ${KIPRJMOD}/lib_fp/ohs.pretty)(options "")(descr ""))
 )
