@@ -1,0 +1,124 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+LGA16R50P4X4_200X200X100
+$EndINDEX
+$MODULE LGA16R50P4X4_200X200X100
+Po 0 0 0 15 00000000 00000000 ~~
+Li LGA16R50P4X4_200X200X100
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 1.52956 -2.13987 1.23343 1.23343 0 0.05 N V 21 "LGA16R50P4X4_200X200X100"
+T1 2.00489 2.11247 1.1969 1.1969 0 0.05 N V 21 "VAL**"
+DS -1 -1 1 -1 0.127 21
+DS 1 -1 1 1 0.127 21
+DS 1 1 -1 1 0.127 21
+DS -1 1 -1 -1 0.127 21
+DC -1.38 -0.77 -1.25 -0.77 0.3048 21
+DS -1.25 1.25 1.25 1.25 0.127 24
+DS 1.25 1.25 1.25 -1.25 0.127 24
+DS 1.25 -1.25 -1.25 -1.25 0.127 24
+DS -1.25 -1.25 -1.25 1.25 0.127 24
+DC -0.49 -0.49 -0.34 -0.49 0.127 24
+$PAD
+Sh "1" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.7625 -0.75
+$EndPAD
+$PAD
+Sh "2" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.7625 -0.25
+$EndPAD
+$PAD
+Sh "3" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.7625 0.25
+$EndPAD
+$PAD
+Sh "4" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.7625 0.75
+$EndPAD
+$PAD
+Sh "5" R 0.28 0.255 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.25 0.75
+$EndPAD
+$PAD
+Sh "6" R 0.28 0.255 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.25 0.75
+$EndPAD
+$PAD
+Sh "7" R 0.28 0.255 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.7625 0.75
+$EndPAD
+$PAD
+Sh "8" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.7625 0.25
+$EndPAD
+$PAD
+Sh "9" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.7625 -0.25
+$EndPAD
+$PAD
+Sh "10" R 0.28 0.255 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.7625 -0.75
+$EndPAD
+$PAD
+Sh "11" R 0.28 0.255 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.25 -0.75
+$EndPAD
+$PAD
+Sh "12" R 0.28 0.255 0 0 900
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.25 -0.75
+$EndPAD
+$EndMODULE LGA16R50P4X4_200X200X100
