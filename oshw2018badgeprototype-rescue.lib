@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# oshw2018badgeprototype-rescue:+3V3
+# +3V3
 #
-DEF oshw2018badgeprototype-rescue:+3V3 #PWR 0 0 Y Y 1 F P
+DEF +3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "oshw2018badgeprototype-rescue:+3V3" 0 140 50 H V C CNN
+F1 "+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:105162-0001
+# 105162-0001
 #
-DEF oshw2018badgeprototype-rescue:105162-0001 J 0 30 Y Y 1 F N
+DEF 105162-0001 J 0 30 Y Y 1 F N
 F0 "J" 1150 300 50 H V L CNN
-F1 "oshw2018badgeprototype-rescue:105162-0001" 1150 200 50 H V L CNN
+F1 "105162-0001" 1150 200 50 H V L CNN
 F2 "105162-0001" 1150 100 50 H I L CNN
 F3 "http://www.molex.com/webdocs/datasheets/pdf/en-us//1051620001_MEMORY_CARD_SOCKET.pdf" 1150 0 50 H I L CNN
 F4 "Memory Card Connectors 1.45H MICRO SD HEADER WITH D/C PIN" 1150 -100 50 H I L CNN "Description"
@@ -45,11 +45,11 @@ X DET 9 0 -400 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:52435-2471
+# 52435-2471
 #
-DEF oshw2018badgeprototype-rescue:52435-2471 X 0 40 Y Y 1 F N
+DEF 52435-2471 X 0 40 Y Y 1 F N
 F0 "X" 50 450 60 H V C CNN
-F1 "oshw2018badgeprototype-rescue:52435-2471" 300 -2150 60 H V C CNN
+F1 "52435-2471" 300 -2150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -81,11 +81,11 @@ X BUSY 9 -200 -500 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:Badgelife_shitty_connector
+# Badgelife_shitty_connector
 #
-DEF oshw2018badgeprototype-rescue:Badgelife_shitty_connector X 0 40 Y Y 1 F N
+DEF Badgelife_shitty_connector X 0 40 Y Y 1 F N
 F0 "X" 100 -200 60 H V C CNN
-F1 "oshw2018badgeprototype-rescue:Badgelife_shitty_connector" 0 400 60 H V C CNN
+F1 "Badgelife_shitty_connector" 0 400 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -97,11 +97,11 @@ X SDA 4 550 100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:Battery_Cell
+# Battery_Cell
 #
-DEF oshw2018badgeprototype-rescue:Battery_Cell BT 0 0 N N 1 F N
+DEF Battery_Cell BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "oshw2018badgeprototype-rescue:Battery_Cell" 100 0 50 H V L CNN
+F1 "Battery_Cell" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW
@@ -116,11 +116,11 @@ X - 2 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:C
+# C
 #
-DEF oshw2018badgeprototype-rescue:C C 0 10 N Y 1 F N
+DEF C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "oshw2018badgeprototype-rescue:C" 25 -100 50 H V L CNN
+F1 "C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -134,11 +134,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:CP
+# CP
 #
-DEF oshw2018badgeprototype-rescue:CP C 0 10 N Y 1 F N
+DEF CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "oshw2018badgeprototype-rescue:CP" 25 -100 50 H V L CNN
+F1 "CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -157,11 +157,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:Conn_02x03_Top_Bottom
+# Conn_02x03_Top_Bottom
 #
-DEF oshw2018badgeprototype-rescue:Conn_02x03_Top_Bottom J 0 40 Y N 1 F N
+DEF Conn_02x03_Top_Bottom J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "oshw2018badgeprototype-rescue:Conn_02x03_Top_Bottom" 50 -200 50 H V C CNN
+F1 "Conn_02x03_Top_Bottom" 50 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -185,11 +185,11 @@ X Pin_6 6 300 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:D
+# D
 #
-DEF oshw2018badgeprototype-rescue:D D 0 40 N N 1 F N
+DEF D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "oshw2018badgeprototype-rescue:D" 0 -100 50 H V C CNN
+F1 "D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -208,11 +208,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:D_Schottky
+# D_Schottky
 #
-DEF oshw2018badgeprototype-rescue:D_Schottky D 0 40 N N 1 F N
+DEF D_Schottky D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "oshw2018badgeprototype-rescue:D_Schottky" 0 -100 50 H V C CNN
+F1 "D_Schottky" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -231,11 +231,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:ESP32-WROOM
+# ESP32-WROOM
 #
-DEF oshw2018badgeprototype-rescue:ESP32-WROOM U 0 40 Y Y 1 L N
+DEF ESP32-WROOM U 0 40 Y Y 1 L N
 F0 "U" 150 250 60 H V R CNN
-F1 "oshw2018badgeprototype-rescue:ESP32-WROOM" 150 150 60 H V R CNN
+F1 "ESP32-WROOM" 150 150 60 H V R CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -282,11 +282,11 @@ X IO33 9 0 -800 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:GND
+# GND
 #
-DEF oshw2018badgeprototype-rescue:GND #PWR 0 0 Y Y 1 F P
+DEF GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "oshw2018badgeprototype-rescue:GND" 0 -150 50 H V C CNN
+F1 "GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -295,11 +295,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:KX122-1037
+# KX122-1037
 #
-DEF oshw2018badgeprototype-rescue:KX122-1037 U 0 40 Y Y 1 F N
+DEF KX122-1037 U 0 40 Y Y 1 F N
 F0 "U" -150 600 60 H V C CNN
-F1 "oshw2018badgeprototype-rescue:KX122-1037" 100 -800 60 H V C CNN
+F1 "KX122-1037" 100 -800 60 H V C CNN
 F2 "" -50 -1050 60 H I C CNN
 F3 "" -50 -1050 60 H I C CNN
 DRAW
@@ -319,11 +319,11 @@ X GND 9 -400 -350 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:L
+# L
 #
-DEF oshw2018badgeprototype-rescue:L L 0 40 N N 1 F N
+DEF L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
-F1 "oshw2018badgeprototype-rescue:L" 75 0 50 V V C CNN
+F1 "L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -342,11 +342,11 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:Q_NMOS_GSD
+# Q_NMOS_GSD
 #
-DEF oshw2018badgeprototype-rescue:Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "oshw2018badgeprototype-rescue:Q_NMOS_GSD" 200 -50 50 H V L CNN
+F1 "Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -374,11 +374,30 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:R
+# Q_NPN_BEC
 #
-DEF oshw2018badgeprototype-rescue:R R 0 0 N Y 1 F N
+DEF Q_NPN_BEC Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Q_NPN_BEC" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R
+#
+DEF R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "oshw2018badgeprototype-rescue:R" 0 0 50 V V C CNN
+F1 "R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -392,11 +411,27 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:SW_Push
+# SK6812MINI
 #
-DEF oshw2018badgeprototype-rescue:SW_Push SW 0 40 N N 1 F N
+DEF SK6812MINI U 0 40 Y Y 1 F N
+F0 "U" -100 250 60 H V C CNN
+F1 "SK6812MINI" 100 -200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 300 -150 -150 200 0 1 0 N
+X DOUT 1 -350 100 200 R 50 50 1 1 I
+X VSS 2 -350 -50 200 R 50 50 1 1 I
+X DIN 3 500 -50 200 L 50 50 1 1 I
+X VDD 4 500 100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# SW_Push
+#
+DEF SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "oshw2018badgeprototype-rescue:SW_Push" 0 -60 50 H V C CNN
+F1 "SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -409,11 +444,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:Si7006-A20
+# Si7006-A20
 #
-DEF oshw2018badgeprototype-rescue:Si7006-A20 U 0 40 Y Y 1 F N
+DEF Si7006-A20 U 0 40 Y Y 1 F N
 F0 "U" -150 850 60 H V C CNN
-F1 "oshw2018badgeprototype-rescue:Si7006-A20" 50 50 60 H V C CNN
+F1 "Si7006-A20" 50 50 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -427,11 +462,11 @@ X SCL 6 -400 200 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:TEST_1P
+# TEST_1P
 #
-DEF oshw2018badgeprototype-rescue:TEST_1P J 0 30 N N 1 F N
+DEF TEST_1P J 0 30 N N 1 F N
 F0 "J" 0 270 50 H V C CNN
-F1 "oshw2018badgeprototype-rescue:TEST_1P" 0 200 50 H V C CNN
+F1 "TEST_1P" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
@@ -440,11 +475,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# oshw2018badgeprototype-rescue:XC9141
+# XC9141
 #
-DEF oshw2018badgeprototype-rescue:XC9141 U 0 40 Y Y 1 F N
+DEF XC9141 U 0 40 Y Y 1 F N
 F0 "U" -50 300 60 H V C CNN
-F1 "oshw2018badgeprototype-rescue:XC9141" 150 -200 60 H V C CNN
+F1 "XC9141" 150 -200 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
