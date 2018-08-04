@@ -15,4 +15,6 @@
   (lib (name SK6812MINI)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/SK6812MINI .pretty")(options "")(descr ""))
   (lib (name ohs)(type KiCad)(uri ${KIPRJMOD}/lib_fp/ohs.pretty)(options "")(descr ""))
   (lib (name oshwcert)(type KiCad)(uri ${KIPRJMOD}/lib_fp/oshwcert.pretty)(options "")(descr ""))
+  (lib (name ScreamingCircuts)(type KiCad)(uri ${KIPRJMOD}/lib_fp/ScreamingCircuts.pretty)(options "")(descr ""))
+  (lib (name oshpark)(type KiCad)(uri ${KIPRJMOD}/lib_fp/oshpark.pretty)(options "")(descr ""))
 )
