@@ -1845,10 +1845,10 @@ TxD
 Text GLabel 1800 -650 0    60   Input ~ 0
 EN
 $Comp
-L oshw2018badgeprototype-rescue:GND #PWR?
+L oshw2018badgeprototype-rescue:GND #PWR0101
 U 1 1 5B662290
 P 2650 -800
-F 0 "#PWR?" H 2650 -1050 50  0001 C CNN
+F 0 "#PWR0101" H 2650 -1050 50  0001 C CNN
 F 1 "GND" H 2650 -950 50  0000 C CNN
 F 2 "" H 2650 -800 50  0001 C CNN
 F 3 "" H 2650 -800 50  0001 C CNN
@@ -1856,10 +1856,10 @@ F 3 "" H 2650 -800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L oshw2018badgeprototype-rescue:+3V3 #PWR?
+L oshw2018badgeprototype-rescue:+3V3 #PWR0102
 U 1 1 5B6628B9
 P 2650 -1000
-F 0 "#PWR?" H 2650 -1150 50  0001 C CNN
+F 0 "#PWR0102" H 2650 -1150 50  0001 C CNN
 F 1 "+3V3" H 2650 -860 50  0000 C CNN
 F 2 "" H 2650 -1000 50  0001 C CNN
 F 3 "" H 2650 -1000 50  0001 C CNN
@@ -1877,10 +1877,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 5950 6350 5950
 $Comp
-L Connector:TestPoint EN
+L Connector:TestPoint EN1
 U 1 1 5B67725A
 P 1850 -650
-F 0 "EN" V 1850 -463 50  0000 L CNN
+F 0 "EN1" V 1850 -463 50  0000 L CNN
 F 1 "TestPoint" V 1895 -462 50  0001 L CNN
 F 2 "test_point:test_point" H 2050 -650 50  0001 C CNN
 F 3 "~" H 2050 -650 50  0001 C CNN
@@ -1888,10 +1888,10 @@ F 3 "~" H 2050 -650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TXD
+L Connector:TestPoint TXD1
 U 1 1 5B6772FE
 P 1850 -550
-F 0 "TXD" V 1850 -363 50  0000 L CNN
+F 0 "TXD1" V 1850 -363 50  0000 L CNN
 F 1 "TestPoint" V 1895 -362 50  0001 L CNN
 F 2 "test_point:test_point" H 2050 -550 50  0001 C CNN
 F 3 "~" H 2050 -550 50  0001 C CNN
@@ -1899,10 +1899,10 @@ F 3 "~" H 2050 -550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint RXD
+L Connector:TestPoint RXD1
 U 1 1 5B67737E
 P 1850 -450
-F 0 "RXD" V 1850 -263 50  0000 L CNN
+F 0 "RXD1" V 1850 -263 50  0000 L CNN
 F 1 "TestPoint" V 1895 -262 50  0001 L CNN
 F 2 "test_point:test_point" H 2050 -450 50  0001 C CNN
 F 3 "~" H 2050 -450 50  0001 C CNN
@@ -1921,10 +1921,10 @@ F 3 "~" H 2050 -350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint BAT
+L Connector:TestPoint BAT1
 U 1 1 5B677488
 P 1850 -250
-F 0 "BAT" V 1850 -62 50  0000 L CNN
+F 0 "BAT1" V 1850 -62 50  0000 L CNN
 F 1 "TestPoint" V 1895 -62 50  0001 L CNN
 F 2 "test_point:test_point" H 2050 -250 50  0001 C CNN
 F 3 "~" H 2050 -250 50  0001 C CNN
@@ -1932,10 +1932,10 @@ F 3 "~" H 2050 -250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint GND
+L Connector:TestPoint GND1
 U 1 1 5B677C91
 P 2600 -800
-F 0 "GND" V 2703 -726 50  0000 C CNN
+F 0 "GND1" V 2703 -726 50  0000 C CNN
 F 1 "TestPoint" V 2645 -612 50  0001 L CNN
 F 2 "test_point:test_point" H 2800 -800 50  0001 C CNN
 F 3 "~" H 2800 -800 50  0001 C CNN
