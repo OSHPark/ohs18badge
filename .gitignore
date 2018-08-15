@@ -1,5 +1,10 @@
 
 *.bak
 *.kicad_pcb-bak
+<<<<<<< HEAD
+lib_fp/oshwcert.pretty/oshwa-2.5.svg
+*.zip
+=======
 *.bak
 *.kicad_pcb-bak
+>>>>>>> 26e0b377c7fc111e56a2e50a5e923f17325ca738
